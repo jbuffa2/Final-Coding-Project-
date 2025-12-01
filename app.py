@@ -385,4 +385,4 @@ def update_hist(room, timep, sat):
 # 7. RUN
 # ============================a
 if __name__ == "__main__":
-    app.run(debug=True, port=8051)
+    app.run(debug=True)
