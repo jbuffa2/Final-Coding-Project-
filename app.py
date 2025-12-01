@@ -287,7 +287,7 @@ def update_price_dist(room, timep, sat):
     Output("avg-price-distance", "figure"),
     Input("room-type-filter", "value"),
     Input("time-period-filter", "value"),
-    Input("satisfaction-filter", "value"),x
+    Input("satisfaction-filter", "value"),
 )
 def update_avg(room, timep, sat):
     d = filter_df(room, timep, sat)
