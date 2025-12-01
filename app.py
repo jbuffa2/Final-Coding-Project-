@@ -67,7 +67,7 @@ app.layout = html.Div(
             children=[
                 # HEADER
                 html.H1(
-                    "London Airbnb Price Dashboard",
+                    "London Airbnb Price Dashboard Written By Jack Buffa, Misha Chen, and Veronica Lee",
                     style={"textAlign": "center", "marginBottom": "3px"}
                 ),
                 html.P(
